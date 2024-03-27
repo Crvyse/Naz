@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    fieldset {
+        background-color:   rgba(196, 235, 56, 0.342);
+    }
+    legend {background-color: aliceblue;
+            color: aqua;
+            padding: 5px 10px;
+            }    
+
+
+    label {
+        display: inline-block;
+        width: 120px;
+        margin-bottom: 10px;
+      }
+</style>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>biodata pribadi</legend>
+        <form action="">
+            <label for="nama">nama</label><td>:</td>
+            <input type="text" id="nama" name="nama"><br><br>
+            <label for="alamat">alamat</label><td>:</td>
+            <textarea type="text" id="alamat" placeholder="masukan alamat lengkap anda disini" nama="alamat"></textarea><br><br>
+            <label for="TTL"> ttl</label><td>:</td>
+            <input type="text" id="TTL" name="ttl">
+            <input type="date"><br><br>
+            <label for="gender">jenis kelamin</label><td>:</td>
+            <input type="radio" id="cewek" name="gender">
+            <label for="cewek">perempuan</label>
+            <input type="radio" id="cowok" name="gender">
+            <label for="cowok">laki-laki</label><br><br>
+            <label for="agama">agama</label><td>:</td>
+            <select name="agama" id ="agama">
+                <option value="islam">islam</option>
+                <option value="katholic">katholic</option>
+                <option value="hindu">hindu</option>
+                <option value="budha">budha</option>
+            </select><br><br>
+
+            <label for="hobby">hobby</label><td>:</td>
+            <input type="checkbox" id="olahraga" name="hobby">
+            <label for="olahraga">olahraga</label>
+            <input type="checkbox" id="membaca" name="hobby">
+            <label for="membaca">membaca</label>
+            <input type="checkbox" id="komputer" name="hobby">
+            <label for="komputer">komputer</label>
+            <input type="checkbox" id="music" name="hobby">
+            <label for="music">music</label>
+            <input type="checkbox" id="berenang" name="hobby">
+            <label for="berenang">berenang</label>
+            <input type="checkbox" id="masak" name="hobby">
+            <label for="masak">masak</label><br><br>
+            <label for="motto">motto</label><td>:</td>
+            <textarea name="motto" id="motto" placeholder="isikanmotto anda disini"></textarea><br><br>
+            <input type="reset" value="reset">
+            <input type="button" value="simpan">
+
+            </form>
+            </fieldset>
+        
+</body>
+</html>
