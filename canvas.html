@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    canvas {
+        border: 1px solid black;
+
+    }
+</style>
+</head>
+<body>
+    <img 
+    id="walter"
+    src="walter dog.jpg"
+    alt="walter white "
+    width="220"
+    height="280"
+    />
+    <canvas
+        id="mycanvas"
+        width="250"
+        height="300">
+    </canvas>
+
+
+    <script>
+        function mycanvas() {
+            var canvas = document.getElementById("mycanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "white";
+            ctx.fillStyle = "black";
+            ctx.fillrect(0, 0, canvas.clientWidth, canvas.clientHeight)
+            var img = document.getElementById("walter");
+            ctx.drawImage(img, 10, 10);
+        }
+    </script>
+</body>
+</html>
