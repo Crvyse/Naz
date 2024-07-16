@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Navigation Styles */
+nav {
+    background: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #0779e4;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Form Styles */
+.login-area {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-group button {
+    width: 100%;
+    padding: 10px;
+    background: #0779e4;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.input-group button:hover {
+    background: #0566c2;
+}
+
+.additional-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.additional-links a {
+    color: #0779e4;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
